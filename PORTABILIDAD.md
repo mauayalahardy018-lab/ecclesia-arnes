@@ -1,8 +1,10 @@
 # Prueba de portabilidad del arnés
 
-Este protocolo produce evidencia; no representa una prueba ya realizada.
+Este protocolo describe la prueba y su evidencia. La instalación y ejecución local ya se realizaron; la publicación remota sigue pendiente.
 
-La instalación local ejecutada el 30 de octubre de 2026 está documentada en el repositorio hermano `ecclesia-portabilidad-prueba/docs/resultado.md`. Falta su publicación remota y el video.
+La instalación local ejecutada el 30 de octubre de 2026 y su actualización a la versión 0.1.4 del 1 de noviembre están documentadas en el repositorio hermano `ecclesia-portabilidad-prueba/docs/resultado.md`. La copia del hook pasó los controles. La publicación remota sigue pendiente.
+
+El video explicativo `ecclesia-portabilidad-prueba/docs/Video_portabilidad_arnes_0.1.4.mp4` dura 1:36 y usa los comandos y la salida real guardada en `ecclesia-portabilidad-prueba/docs/evidencia-hook-2026-11-01.txt`. La grabación personal del alumno pedida para la evaluación se mantiene como evidencia separada.
 
 ## Repositorio de prueba
 
@@ -13,7 +15,7 @@ Crear un repositorio nuevo y vacío, con un dominio distinto de Ecclesia. Regist
 1. Copiar `core/AGENTS.base.md` a `AGENTS.md`.
 2. Copiar `plantilla-proyecto/PROYECTO.md` a `docs/PROYECTO.md` y reemplazar todas las reglas de Ecclesia por el nuevo dominio.
 3. Adaptar `ARCHITECTURE.md`, ADR y scripts de `stacks/express/package-scripts.md`.
-4. Pedir a Codex un módulo mínimo con el prompt `core/prompts/01-nuevo-modulo.md`.
+4. Pedir a Codex un módulo mínimo con el prompt `core/prompts/nuevo-modulo.md`.
 5. Ejecutar lint, formato, dependencias y prueba; registrar salida y correcciones en el CHANGELOG del repositorio de prueba.
 
 ## Criterios de éxito

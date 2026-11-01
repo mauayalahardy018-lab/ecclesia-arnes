@@ -10,3 +10,6 @@
 8. Si se excluye una entidad por su ID al comparar, ¿qué ocurre cuando ambos registros aún no tienen ID?
 9. ¿Los identificadores `bigint` que devuelve PostgreSQL llegan como texto y se comparan con números en el dominio?
 10. ¿Cada ruta pública de un submódulo comprueba que la iglesia esté activa, incluso cuando se conoce su ID?
+11. ¿La ficha y el ranking soportan cargas paralelas sin devolver 500 con el pool configurado para la base usada?
+12. ¿Cada iglesia real tiene fuente y enlace Maps, y se distinguen sus datos verificados de los simulados?
+13. ¿La cobertura incluye servicios y dominio con base sembrada, además de la prueba de dominio aislada?

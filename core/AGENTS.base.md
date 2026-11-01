@@ -14,7 +14,9 @@ Leer `docs/PROYECTO.md`, `docs/requerimientos.md`, `docs/trazabilidad.md` y `ARC
 - Conservar el historial de cierres, objetos, sustituciones, diezmos y solicitudes.
 - Probar los casos de éxito, límites, errores y accesos entre iglesias.
 - Ejecutar `npm run check` antes de proponer un commit; registrar resultados reales.
-- Mantener ejemplos ficticios y señalarlo cuando se usen iglesias reales.
+- Ejecutar `npm run coverage:full` con una base sembrada cuando cambien dominio o servicios; distinguir la cobertura de dominio de la cobertura conjunta.
+- Mantener para cada templo real fuente, nombre, ubicación verificable y enlace Maps; marcar patrimonio, capacidad, horarios, personas, precios y finanzas simulados.
+- En desarrollo con PostgreSQL embebido usar `DB_POOL_MAX=1`, probar lecturas paralelas y repetir la validación de concurrencia en PostgreSQL de servidor.
 
 ## Nunca
 
@@ -25,6 +27,7 @@ Leer `docs/PROYECTO.md`, `docs/requerimientos.md`, `docs/trazabilidad.md` y `ARC
 - Tratar un horario recurrente como misa celebrada.
 - Contar objetos perdidos, prestados o dados de baja en el índice.
 - Entregar un cambio con lint, formato, pruebas o reglas de dependencias fallando.
+- Presentar un municipio como dirección de calle verificada o una fotografía de Maps como archivo propio sin autorización.
 
 ## Al terminar una tarea
 
