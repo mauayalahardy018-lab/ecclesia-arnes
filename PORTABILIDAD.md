@@ -1,8 +1,8 @@
 # Prueba de portabilidad del arnés
 
-Este protocolo describe la prueba y su evidencia. La instalación y ejecución local ya se realizaron; la publicación remota sigue pendiente.
+Este protocolo describe la prueba y su evidencia. La instalación y ejecución local ya se realizaron y el repositorio se publicó en https://github.com/mauayalahardy018-lab/ecclesia-portabilidad-prueba.
 
-La instalación local ejecutada el 30 de octubre de 2026 y su actualización a la versión 0.1.4 del 1 de noviembre están documentadas en el repositorio hermano `ecclesia-portabilidad-prueba/docs/resultado.md`. La copia del hook pasó los controles. La publicación remota sigue pendiente.
+La instalación local ejecutada el 30 de octubre de 2026 y su actualización a la versión 0.1.4 del 1 de noviembre están documentadas en el repositorio hermano `ecclesia-portabilidad-prueba/docs/resultado.md`. La copia del hook pasó los controles.
 
 El video explicativo `ecclesia-portabilidad-prueba/docs/Video_portabilidad_arnes_0.1.4.mp4` dura 1:36 y usa los comandos y la salida real guardada en `ecclesia-portabilidad-prueba/docs/evidencia-hook-2026-11-01.txt`. La grabación personal del alumno pedida para la evaluación se mantiene como evidencia separada.
 
